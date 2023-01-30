@@ -74,7 +74,7 @@ const Shell = (props: IShellProps) => (
           </SidebarLink>
         </Link>
 
-        <Link href="/login">
+        {/* <Link href="/login">
           <SidebarLink
             icon={
               <svg
@@ -91,9 +91,9 @@ const Shell = (props: IShellProps) => (
           >
             Login
           </SidebarLink>
-        </Link>
+        </Link> */}
 
-        <Link href="/signup">
+        {/* <Link href="/signup">
           <SidebarLink
             icon={
               <svg
@@ -110,9 +110,9 @@ const Shell = (props: IShellProps) => (
           >
             Sign Up
           </SidebarLink>
-        </Link>
+        </Link> */}
 
-        <Link href="/forgot-password">
+        {/* <Link href="/forgot-password">
           <SidebarLink
             icon={
               <svg
@@ -129,9 +129,9 @@ const Shell = (props: IShellProps) => (
           >
             Forgot Password
           </SidebarLink>
-        </Link>
+        </Link> */}
 
-        <Link href="/">
+        {/* <Link href="/">
           <SidebarLink
             icon={
               <svg
@@ -173,12 +173,12 @@ const Shell = (props: IShellProps) => (
           >
             Custom Page 3
           </SidebarLink>
-        </Link>
+        </Link> */}
       </>
     }
     bottomLinks={
       <>
-        <Link href="/">
+        {/* <Link href="/">
           <SidebarLink
             icon={
               <svg
@@ -198,7 +198,7 @@ const Shell = (props: IShellProps) => (
           >
             Custom Page
           </SidebarLink>
-        </Link>
+        </Link> */}
 
         <Link href="/">
           <SidebarLink

@@ -15,7 +15,7 @@ const Shell = (props: IShellProps) => (
     title={props.title}
     topLinks={
       <>
-        <Link href="/">
+        <Link href="/dashboard">
           <SidebarLink
             icon={
               <svg
